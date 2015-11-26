@@ -1,0 +1,218 @@
+.border-radius (@l-radius,@r-radius) {
+  border-bottom-left-radius: @l-radius;
+  border-top-left-radius: @l-radius;
+  border-bottom-right-radius: @r-radius;
+  border-top-right-radius: @r-radius;
+}
+.float (@style) {
+  float: @style;
+}
+.border-io (@a,...){
+  border: @arguments;
+}
+.font (@wei,@siz,@al) {
+  font-weight: @wei;
+  font-size: @siz;
+  text-align: @al;
+}
+.size (@W,@H,@LH){
+  width: @W;
+  height: @H;
+  line-height: @LH;
+}
+.pad (@a,...) {
+  padding: @arguments;
+}
+.mar (@a,...) {
+  margin: @arguments;
+}
+body {
+  background: url(../images/BG.png) rgba(255,255,255,0.2) no-repeat;
+  font-family: 微软雅黑;
+  .pad (0px,0px,1px,0px);
+  -moz-background-size:100% 100%;
+  background-size:100% 100%;
+}
+#wel {
+ .mar(15px,0px,0px,0px);
+  .font(auto,15px,auto);
+  color: white;
+}
+#Left {
+  .mar (66px,0px,74px,69px);
+  background:rgba(255,255,255,0.2) url(../images/bgl.png) no-repeat;
+  .size(196px,708px,auto);
+  .float(left);
+  .border-radius(7px,0px);
+}
+#logo {
+  .size(auto,54px,0px);
+}
+div.title {
+ .size(196px,30px,30px);
+  color: white;
+  .font(bold,14px,center);
+  border-bottom: #5ca4dd solid 2px;
+}
+span.title {
+  .size(160px,auto,auto);
+}
+.user{
+  background: rgba(0,0,0,0.2);
+  .size(174px,185px,auto);
+  .mar(16px,0px,12px,12px);
+  .border-io(0px,1px,1px,0px,outset,#aaacc6)
+}
+.us{
+  .pad(6px,0px,0px,0px);
+}
+.photo {
+  .mar(0px,0px,0px,14px);
+  .float(left);
+}
+div.login {
+  .font(bold,10px,auto);
+  .pad(0px,0px,0px,58px);
+  .mar(0px,0px,5px,0px);
+}
+a.login{
+  text-decoration: none;
+  color: yellow;
+}
+.personal-buzi {
+  display: block;
+  .font(auto,9px,auto);
+  color: #8db2dc;
+  .pad(6px,0px,2px,10px);
+  text-decoration: none;
+  vertical-align: middle;
+  &:hover {
+    color: white;
+    background: rgba(0,0,0,0.4);
+  }
+}
+img.tri {
+  .float(left);
+  .size(43px,43px,auto);
+  background: rgba(255,255,255,0.4);
+  .mar(12px,0px,0px,16px);
+  .border-io (1px,1px,1px,1px,outset,#ffffff);
+  .border-radius (5px,5px);
+  &:hover {
+    background: rgba(0,0,0,0.4);
+    .border-radius (5px,5px);
+    .border-io (1px,1px,1px,1px,inset,#000000);
+  }
+}
+
+.tri-bu {
+  .size(43px,14px,auto);
+  background: rgb(70,70,70);
+  .border-radius (7px,7px);
+  .mar(85px,75px,0px,75px);
+  .point {
+    .float(left);
+    .size(7px,7px,auto);
+    background: rgb(137,137,137);
+    .border-radius (4px,4px);
+    .mar(3px,3px,3px,4px);
+    &:hover {
+      .float(left);
+      .size(7px,7px,auto);
+      background: rgb(2,205,2);
+      .border-radius (4px,4px);
+    }
+  }
+}
+div.c {
+  .mar(9px,0px,0px,11px);
+  .pad(14px,0px,0px,0px);
+  border-top: #9a7089 solid 2px;
+  img.c {
+    vertical-align:middle;
+  }
+  a.c {
+    display: block;
+   .size(auot,30px,30px);
+   color: white;
+   .font(auto,14px,auto);
+   text-decoration: none;
+    &:hover {
+      .border-radius(13px,13px);
+      background: rgb(70,70,70);
+      display: block;
+    }
+    .ar {
+      display: none;
+      .float(right);
+      .mar(0px,14px,0px,0px);
+      .pad(12px,0px,0px,0px);
+    }
+    &:hover .ar {
+      background: rgb(70,70,70);
+      display: block;
+    }
+  }
+}
+#right {
+  .mar(66px,0px,74px,3px);
+  background: rgb(255,255,255) ;
+  .size(942px,708px,auto);
+  .float(left);
+  .border-radius(0px,7px);
+div.top {
+  background: url(../images/rtb.png);
+  height: 59px;
+  .mar(0px,0px,39px,0px);
+  border-top-right-radius: 7px;
+  .T {
+    .mar(13px,0px,0px,18px);
+  }
+  img.top {
+    .mar(13px,0px,0px,25px);
+  }
+}
+.dv {
+  .size(426px,204px,auto);
+  background: #ffffff;
+  .float(left);
+  .mar(18px,0px,0px,18px);
+  border: #d1d5d9 1px solid;
+  .border-radius(5px,5px);
+  .lead {
+   .size(auto,32px,auto);
+   background: #e0f1fd;
+   .font(bolder,16px,auto);
+   .title-2 {
+     .mar(9px,0px,0px,5px);
+     .pad(9px,0px,0px,0px);
+   }
+   .plus-botton {
+     .float(right);
+     .mar(5px,5px,0px,0px);
+   }
+ }
+  .issue {
+      .size(auto,auto,26px);
+      .mar(5px,14px,5px,9px);
+    .i-title {
+      .size(auto,26px,26px);
+      .font(auto,12px,auto);
+      .mar(auto,5px,auto,auto);
+      overflow:hidden;
+      .float(left);
+    }
+    .pt {
+      .mar(10px,auto,auto,auto);
+      .float(left);
+    }
+      .new {
+        .mar(3px,0px,0px,14px);
+      }
+      .date-time {
+        color: #d4d2d2;
+        .float(right);
+      }
+    }
+}
+}

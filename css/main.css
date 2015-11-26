@@ -1,0 +1,260 @@
+body {
+  background: url(../images/BG.png) rgba(255, 255, 255, 0.2) no-repeat;
+  font-family: 微软雅黑;
+  padding: 0px 0px 1px 0px;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+#wel {
+  margin: 15px 0px 0px 0px;
+  font-weight: auto;
+  font-size: 15px;
+  text-align: auto;
+  color: white;
+}
+#Left {
+  margin: 66px 0px 74px 69px;
+  background: rgba(255, 255, 255, 0.2) url(../images/bgl.png) no-repeat;
+  width: 196px;
+  height: 708px;
+  line-height: auto;
+  float: left;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#logo {
+  width: auto;
+  height: 54px;
+  line-height: 0px;
+}
+div.title {
+  width: 196px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: #5ca4dd solid 2px;
+}
+span.title {
+  width: 160px;
+  height: auto;
+  line-height: auto;
+}
+.user {
+  background: rgba(0, 0, 0, 0.2);
+  width: 174px;
+  height: 185px;
+  line-height: auto;
+  margin: 16px 0px 12px 12px;
+  border: 0px 1px 1px 0px outset #aaacc6;
+}
+.us {
+  padding: 6px 0px 0px 0px;
+}
+.photo {
+  margin: 0px 0px 0px 14px;
+  float: left;
+}
+div.login {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: auto;
+  padding: 0px 0px 0px 58px;
+  margin: 0px 0px 5px 0px;
+}
+a.login {
+  text-decoration: none;
+  color: yellow;
+}
+.personal-buzi {
+  display: block;
+  font-weight: auto;
+  font-size: 9px;
+  text-align: auto;
+  color: #8db2dc;
+  padding: 6px 0px 2px 10px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.personal-buzi:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+img.tri {
+  float: left;
+  width: 43px;
+  height: 43px;
+  line-height: auto;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 12px 0px 0px 16px;
+  border: 1px 1px 1px 1px outset #ffffff;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+img.tri:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px 1px 1px 1px inset #000000;
+}
+.tri-bu {
+  width: 43px;
+  height: 14px;
+  line-height: auto;
+  background: #464646;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  margin: 85px 75px 0px 75px;
+}
+.tri-bu .point {
+  float: left;
+  width: 7px;
+  height: 7px;
+  line-height: auto;
+  background: #898989;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 3px 3px 3px 4px;
+}
+.tri-bu .point:hover {
+  float: left;
+  width: 7px;
+  height: 7px;
+  line-height: auto;
+  background: #02cd02;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+div.c {
+  margin: 9px 0px 0px 11px;
+  padding: 14px 0px 0px 0px;
+  border-top: #9a7089 solid 2px;
+}
+div.c img.c {
+  vertical-align: middle;
+}
+div.c a.c {
+  display: block;
+  width: auot;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  font-weight: auto;
+  font-size: 14px;
+  text-align: auto;
+  text-decoration: none;
+}
+div.c a.c:hover {
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  background: #464646;
+  display: block;
+}
+div.c a.c .ar {
+  display: none;
+  float: right;
+  margin: 0px 14px 0px 0px;
+  padding: 12px 0px 0px 0px;
+}
+div.c a.c:hover .ar {
+  background: #464646;
+  display: block;
+}
+#right {
+  margin: 66px 0px 74px 3px;
+  background: #ffffff;
+  width: 942px;
+  height: 708px;
+  line-height: auto;
+  float: left;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#right div.top {
+  background: url(../images/rtb.png);
+  height: 59px;
+  margin: 0px 0px 39px 0px;
+  border-top-right-radius: 7px;
+}
+#right div.top .T {
+  margin: 13px 0px 0px 18px;
+}
+#right div.top img.top {
+  margin: 13px 0px 0px 25px;
+}
+#right .dv {
+  width: 426px;
+  height: 204px;
+  line-height: auto;
+  background: #ffffff;
+  float: left;
+  margin: 18px 0px 0px 18px;
+  border: #d1d5d9 1px solid;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#right .dv .lead {
+  width: auto;
+  height: 32px;
+  line-height: auto;
+  background: #e0f1fd;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: auto;
+}
+#right .dv .lead .title-2 {
+  margin: 9px 0px 0px 5px;
+  padding: 9px 0px 0px 0px;
+}
+#right .dv .lead .plus-botton {
+  float: right;
+  margin: 5px 5px 0px 0px;
+}
+#right .dv .issue {
+  width: auto;
+  height: auto;
+  line-height: 26px;
+  margin: 5px 14px 5px 9px;
+}
+#right .dv .issue .i-title {
+  width: auto;
+  height: 26px;
+  line-height: 26px;
+  font-weight: auto;
+  font-size: 12px;
+  text-align: auto;
+  margin: auto 5px auto auto;
+  overflow: hidden;
+  float: left;
+}
+#right .dv .issue .pt {
+  margin: 10px auto auto auto;
+  float: left;
+}
+#right .dv .issue .new {
+  margin: 3px 0px 0px 14px;
+}
+#right .dv .issue .date-time {
+  color: #d4d2d2;
+  float: right;
+}
